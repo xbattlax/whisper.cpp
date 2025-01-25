@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ggerganov/whisper.cpp"
+    "url": "git+https://github.com/xbattlax/whisper.cpp"
   },
   "keywords": [
     "openai",
@@ -20,7 +20,7 @@
   "author": "Georgi Gerganov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ggerganov/whisper.cpp/issues"
+    "url": "https://github.com/xbattlax/whisper.cpp/issues"
   },
-  "homepage": "https://github.com/ggerganov/whisper.cpp#readme"
+  "homepage": "https://github.com/xbattlax/whisper.cpp#readme"
 }

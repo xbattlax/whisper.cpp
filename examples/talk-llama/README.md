@@ -4,7 +4,7 @@ Talk with an LLaMA AI in your terminal
 
 *Latest perf as of 2 Nov 2023 using Whisper Medium + LLaMA v2 13B Q8_0 on M2 Ultra:*
 
-https://github.com/ggerganov/whisper.cpp/assets/1991296/d97a3788-bf2a-4756-9a43-60c6b391649e
+https://github.com/xbattlax/whisper.cpp/assets/1991296/d97a3788-bf2a-4756-9a43-60c6b391649e
 
 *Previous demo running on CPUs*
 
@@ -58,4 +58,4 @@ By default, it is configured to use MacOS's `say` or Windows SpeechSynthesizer, 
 
 ## Discussion
 
-If you have any feedback, please let "us" know in the following discussion: https://github.com/ggerganov/whisper.cpp/discussions/672?converting=1
+If you have any feedback, please let "us" know in the following discussion: https://github.com/xbattlax/whisper.cpp/discussions/672?converting=1

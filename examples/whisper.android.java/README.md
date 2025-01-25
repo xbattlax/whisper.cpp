@@ -1,10 +1,10 @@
-A sample Android app using java code and [whisper.cpp](https://github.com/ggerganov/whisper.cpp/) to do voice-to-text transcriptions.
+A sample Android app using java code and [whisper.cpp](https://github.com/xbattlax/whisper.cpp/) to do voice-to-text transcriptions.
 
 To use:
 
-1. Select a model from the [whisper.cpp repository](https://github.com/ggerganov/whisper.cpp/tree/master/models).[^1]
+1. Select a model from the [whisper.cpp repository](https://github.com/xbattlax/whisper.cpp/tree/master/models).[^1]
 2. Copy the model to the "app/src/main/assets/models" folder.
-3. Select a sample audio file (for example, [jfk.wav](https://github.com/ggerganov/whisper.cpp/raw/master/samples/jfk.wav)).
+3. Select a sample audio file (for example, [jfk.wav](https://github.com/xbattlax/whisper.cpp/raw/master/samples/jfk.wav)).
 4. Copy the sample to the "app/src/main/assets/samples" folder.
 5. Modify the modelFilePath in the WhisperService.java
 6. Modify the sampleFilePath in the WhisperService.java

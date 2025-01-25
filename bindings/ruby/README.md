@@ -228,7 +228,7 @@ The second argument `samples` may be an array, an object with `length` and `each
 Development
 -----------
 
-    % git clone https://github.com/ggerganov/whisper.cpp.git
+    % git clone https://github.com/xbattlax/whisper.cpp.git
     % cd whisper.cpp/bindings/ruby
     % rake test
 
@@ -241,5 +241,5 @@ License
 
 The same to [whisper.cpp][].
 
-[whisper.cpp]: https://github.com/ggerganov/whisper.cpp
-[models]: https://github.com/ggerganov/whisper.cpp/tree/master/models
+[whisper.cpp]: https://github.com/xbattlax/whisper.cpp
+[models]: https://github.com/xbattlax/whisper.cpp/tree/master/models

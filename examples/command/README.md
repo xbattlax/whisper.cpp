@@ -1,7 +1,7 @@
 # whisper.cpp/examples/command
 
 This is a basic Voice Assistant example that accepts voice commands from the microphone.
-More info is available in [issue #171](https://github.com/ggerganov/whisper.cpp/issues/171).
+More info is available in [issue #171](https://github.com/xbattlax/whisper.cpp/issues/171).
 
 ```bash
 # Run with default arguments and small model

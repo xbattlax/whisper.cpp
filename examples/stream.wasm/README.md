@@ -8,7 +8,7 @@ Online demo: https://whisper.ggerganov.com/stream/
 
 ```bash
 # build using Emscripten (v3.1.2)
-git clone https://github.com/ggerganov/whisper.cpp
+git clone https://github.com/xbattlax/whisper.cpp
 cd whisper.cpp
 mkdir build-em && cd build-em
 emcmake cmake ..

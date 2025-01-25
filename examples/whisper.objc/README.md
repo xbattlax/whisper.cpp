@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/1991296/204126266-ce4177c6-6eca-4bd9-b
 ## Usage
 
 ```bash
-git clone https://github.com/ggerganov/whisper.cpp
+git clone https://github.com/xbattlax/whisper.cpp
 open whisper.cpp/examples/whisper.objc/whisper.objc.xcodeproj/
 
 # if you don't want to convert a Core ML model, you can skip this step by create dummy model
@@ -32,7 +32,7 @@ This can significantly improve the performance of the transcription:
 
 If you want to enable Core ML support, you can add the `-DWHISPER_USE_COREML -DWHISPER_COREML_ALLOW_FALLBACK` compiler flag for `whisper.cpp` in Build Phases:
 
-<img width="1072" alt="image" src="https://github.com/ggerganov/whisper.cpp/assets/3001525/103e8f57-6eb6-490d-a60c-f6cf6c319324">
+<img width="1072" alt="image" src="https://github.com/xbattlax/whisper.cpp/assets/3001525/103e8f57-6eb6-490d-a60c-f6cf6c319324">
 
 Then follow the [`Core ML support` section of readme](../../README.md#core-ml-support) for convert the model.
 

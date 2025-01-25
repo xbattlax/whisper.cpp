@@ -2,7 +2,7 @@
 
 Simple http server. WAV Files are passed to the inference model via http requests.
 
-https://github.com/ggerganov/whisper.cpp/assets/1991296/e983ee53-8741-4eb5-9048-afe5e4594b8f
+https://github.com/xbattlax/whisper.cpp/assets/1991296/e983ee53-8741-4eb5-9048-afe5e4594b8f
 
 ## Usage
 

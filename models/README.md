@@ -78,7 +78,7 @@ OpenAI format. To read the HF models you can use the [convert-h5-to-ggml.py](con
 
 ```bash
 git clone https://github.com/openai/whisper
-git clone https://github.com/ggerganov/whisper.cpp
+git clone https://github.com/xbattlax/whisper.cpp
 
 # clone HF fine-tuned model (this is just an example)
 git clone https://huggingface.co/openai/whisper-medium
@@ -96,7 +96,7 @@ Currently, the chunk-based transcription strategy is not implemented, so there c
 ```bash
 # clone OpenAI whisper and whisper.cpp
 git clone https://github.com/openai/whisper
-git clone https://github.com/ggerganov/whisper.cpp
+git clone https://github.com/xbattlax/whisper.cpp
 
 # get the models
 cd whisper.cpp/models

@@ -2,7 +2,7 @@
 
 Inference of [OpenAI's Whisper ASR model](https://github.com/openai/whisper) inside the browser
 
-This example uses a WebAssembly (WASM) port of the [whisper.cpp](https://github.com/ggerganov/whisper.cpp)
+This example uses a WebAssembly (WASM) port of the [whisper.cpp](https://github.com/xbattlax/whisper.cpp)
 implementation of the transformer to run the inference inside a web page. The audio data does not leave your computer -
 it is processed locally on your machine. The performance is not great but you should be able to achieve x2 or x3
 real-time for the `tiny` and `base` models on a modern CPU and browser (i.e. transcribe a 60 seconds audio in about
@@ -30,7 +30,7 @@ Link: https://whisper.ggerganov.com
 
 ```bash (v3.1.2)
 # build using Emscripten
-git clone https://github.com/ggerganov/whisper.cpp
+git clone https://github.com/xbattlax/whisper.cpp
 cd whisper.cpp
 mkdir build-em && cd build-em
 emcmake cmake ..

@@ -1,7 +1,7 @@
 # Migration notice for binary filenames
 
 > [!IMPORTANT]
-[2024 Dec 20] Binaries have been renamed w/ a `whisper-` prefix. `main` is now `whisper-cli`, `server` is `whisper-server`, etc (https://github.com/ggerganov/whisper.cpp/pull/2648)
+[2024 Dec 20] Binaries have been renamed w/ a `whisper-` prefix. `main` is now `whisper-cli`, `server` is `whisper-server`, etc (https://github.com/xbattlax/whisper.cpp/pull/2648)
 
 This migration was important, but it is a breaking change that may not always be immediately obvious to users.
 

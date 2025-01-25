@@ -85,7 +85,7 @@ publishing {
             pom {
                 name = 'whispercpp'
                 description = "Java JNA bindings for OpenAI's Whisper model, implemented in C/C++"
-                url = 'https://github.com/ggerganov/whisper.cpp'
+                url = 'https://github.com/xbattlax/whisper.cpp'
                 licenses {
                     license {
                         name = 'MIT licence'
@@ -105,8 +105,8 @@ publishing {
                     }
                 }
                 scm {
-                    connection = 'scm:git:git://github.com/ggerganov/whisper.cpp.git'
-                    url = 'https://github.com/ggerganov/whisper.cpp'
+                    connection = 'scm:git:git://github.com/xbattlax/whisper.cpp.git'
+                    url = 'https://github.com/xbattlax/whisper.cpp'
                 }
             }
         }

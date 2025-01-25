@@ -143,7 +143,7 @@ static int whisper_bench_full(const whisper_params & params) {
     fprintf(stderr, "\n");
     fprintf(stderr, "If you wish, you can submit these results here:\n");
     fprintf(stderr, "\n");
-    fprintf(stderr, "  https://github.com/ggerganov/whisper.cpp/issues/89\n");
+    fprintf(stderr, "  https://github.com/xbattlax/whisper.cpp/issues/89\n");
     fprintf(stderr, "\n");
     fprintf(stderr, "Please include the following information:\n");
     fprintf(stderr, "\n");

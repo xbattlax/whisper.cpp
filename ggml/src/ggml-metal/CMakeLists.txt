@@ -69,7 +69,7 @@ else()
         #       disabling fast math is needed in order to pass tests/test-backend-ops
         # note: adding -fno-inline fixes the tests when using MTL_SHADER_VALIDATION=1
         # note: unfortunately, we have to call it default.metallib instead of ggml.metallib
-        #       ref: https://github.com/ggerganov/whisper.cpp/issues/1720
+        #       ref: https://github.com/xbattlax/whisper.cpp/issues/1720
         set(XC_FLAGS -fno-fast-math -fno-inline -g)
     else()
         set(XC_FLAGS -O3)

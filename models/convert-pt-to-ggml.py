@@ -250,7 +250,7 @@ elif tokenizer_type == "hf_transformers":
         _tokens_raw = json.load(f)
         if '<|endoftext|>' in _tokens_raw:
             # ensures exact same model as tokenizer_type == tiktoken
-            # details: https://github.com/ggerganov/whisper.cpp/pull/725
+            # details: https://github.com/xbattlax/whisper.cpp/pull/725
             del _tokens_raw['<|endoftext|>']
         tokens = {bytes([byte_decoder[c] for c in token]): int(idx) for token, idx in _tokens_raw.items()}
 

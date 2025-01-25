@@ -31,7 +31,7 @@ int main(int argc, char** argv) {
     fprintf(stdout, "\n");
     fprintf(stdout, "WARNING: The binary '%s' is deprecated.\n", filename.c_str());
     fprintf(stdout, " Please use '%s' instead.\n", replacement_filename.c_str());
-    fprintf(stdout, " See https://github.com/ggerganov/whisper.cpp/tree/master/examples/deprecation-warning/README.md for more information.\n");
+    fprintf(stdout, " See https://github.com/xbattlax/whisper.cpp/tree/master/examples/deprecation-warning/README.md for more information.\n");
     fprintf(stdout, "\n");
 
     return EXIT_FAILURE;

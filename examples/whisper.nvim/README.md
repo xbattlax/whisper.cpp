@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/1991296/198382564-784e9663-2037-4d04-9
 - Clone this repo and build the `stream` tool:
 
   ```
-  git clone https://github.com/ggerganov/whisper.cpp
+  git clone https://github.com/xbattlax/whisper.cpp
   cd whisper.cpp
   make stream
   ```
@@ -89,4 +89,4 @@ There are a lot of ways to improve this idea and I don't have much experience wi
 
 ## Discussion
 
-If you find this idea interesting, you can join the discussion here: https://github.com/ggerganov/whisper.cpp/discussions/108
+If you find this idea interesting, you can join the discussion here: https://github.com/xbattlax/whisper.cpp/discussions/108
