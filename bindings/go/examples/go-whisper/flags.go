@@ -7,7 +7,7 @@ import (
 	"time"
 
 	// Packages
-	whisper "github.com/ggerganov/whisper.cpp/bindings/go/pkg/whisper"
+	whisper "github.com/xbattlax/whisper.cpp/bindings/go/pkg/whisper"
 )
 
 ///////////////////////////////////////////////////////////////////////////////
