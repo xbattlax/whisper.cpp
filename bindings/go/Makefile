@@ -30,7 +30,8 @@ all: clean whisper examples
 
 whisper: mkdir
 	@echo Build whisper
-	@${MAKE} -C ../.. libwhisper.a
+	@cmake -S ../.. -B ${BUILD_DIR} -DBUILD_SHARED_LIBS=0
+	@cmake --build ${BUILD_DIR} -j --config Release
 
 test: model-small whisper modtidy
 ifeq ($(UNAME_S),Darwin)
